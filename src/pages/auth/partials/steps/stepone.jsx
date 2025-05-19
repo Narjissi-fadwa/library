@@ -17,7 +17,7 @@ const StepOne = ({ onSubmit, initialData }) => {
     const validateForm = () => {
         const newErrors = {};
         
-        // Validate Full Name
+        
         if (!formData.fullName.trim()) {
             newErrors.fullName = 'Full name is required';
         } else if (formData.fullName.trim().length < 5 ) {
@@ -26,14 +26,14 @@ const StepOne = ({ onSubmit, initialData }) => {
             newErrors.fullName = 'Please enter a valid name';
         }
         
-        // Validate Email
+        
         if (!formData.email) {
             newErrors.email = 'Email is required';
         } else if (formData.email.length < 10 || formData.email.split('@').length !== 2 ||  /[#\-+*/,;:!]/.test(formData.email) || /\s/.test(formData.email)) {
             newErrors.email = 'Please enter a valid email address';
         }
         
-        // Validate Phone Number
+        
         if (!formData.phoneNumber) {
             newErrors.phoneNumber = 'Phone number is required';
         } else if (!/^\d{10,15}$/.test(formData.phoneNumber.replace(/[^\d]/g, ''))) {
