@@ -4,7 +4,7 @@ import images from '../../../constant/images';
 
 const About = () => {
     return (
-        <div className="min-h-screen bg-[#6F6149] text-gray-800 px-6 py-16 font-serif ">
+        <div className="min-h-screen bg-[#6F6149]  px-6 py-16 font-serif ">
             <div className="max-w-6xl mx-auto ">
                 <h1 className="text-5xl font-bold font-decorative text-white text-center mb-12 mt-28">
                     About Bibliotheca
