@@ -7,6 +7,7 @@ import AboutPage from './pages/about/about';
 import SignupPage from './pages/auth/signup';
 import LoginPage from './pages/auth/login';
 import AdminPage from './pages/admin/admin';
+import ContactPage from './pages/contact/contact';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/signup" element={<SignupPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/admin" element={<AdminPage />} />
+          <Route path="/Contact" element={<ContactPage />} />
         </Routes>
       </main>
     </div>

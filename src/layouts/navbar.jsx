@@ -21,6 +21,9 @@ const Navbar = () => {
                     <Link to="/signup" className="text-white hover:text-[#e3d6b3] font-serif transition-colors duration-300">
                         Sign Up
                     </Link>
+                    <Link to="/contact" className="text-white hover:text-[#e3d6b3] font-serif transition-colors duration-300">
+                        Contact Us
+                    </Link>
                 </div>
             </div>
         </nav>
